@@ -75,3 +75,59 @@ Output
 ```output
 Dennis 97
 ```
+
+---
+
+# 4
+
+Write a function `get_letter_grade(score)` that takes in one argument `score`, which **returns** letter grade equivalent of a test score.
+
+|    Grade   | Letter |
+|:----------:|--------|
+| 90 - 100   | A      |
+| 80 - 89.99 | B      |
+| 70 - 79.99 | C      |
+| 60 - 69.99 | D      |
+| Below 60   | F      |
+
+#### Examples 
+Input
+```py
+get_highest_score(100)
+```
+Output
+```output
+A
+```
+Input
+```py
+get_letter_grade(65)
+```
+Output
+```output
+D
+```
+
+---
+
+# 5
+
+Write a function `get_letter_grades(scores)` that takes in one argument `scores`, which **returns** an array of letter grades as strings.
+
+|    Grade   | Letter |
+|:----------:|--------|
+| 90 - 100   | A      |
+| 80 - 89.99 | B      |
+| 70 - 79.99 | C      |
+| 60 - 69.99 | D      |
+| Below 60   | F      |
+
+#### Example
+Input
+```py
+get_letter_grades([37, 73, 53, 95, 88])
+```
+Output
+```output
+['F', 'C', 'F', 'A', 'B']
+```
