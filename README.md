@@ -131,3 +131,24 @@ Output
 ```output
 ['F', 'C', 'F', 'A', 'B']
 ```
+
+---
+
+# 6
+
+Write a function `tests_summary(tests)` that takes in one argument `tests`, which **prints** the test number and the test score shown in the example below.
+
+
+#### Example
+Input
+```py
+tests_summary([37, 73, 53, 95, 88])
+```
+Output
+```output
+Test 1 : 37
+Test 2 : 73
+Test 3 : 53
+Test 4 : 95
+Test 5 : 88
+```
