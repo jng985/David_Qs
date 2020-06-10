@@ -178,3 +178,22 @@ Output
 5 kiwis cost $19, so each kiwi costs $3.80.
 7 grapes cost $8, so each grape costs $1.14.
 ```
+
+---
+
+# 8
+
+Write a function `reverse_remove_vowels(words)` that takes in one arguments `words`, which is an array of strings. **Return** a new array with the same words in reversed order **without vowels**. 
+
+
+#### Example
+Input
+
+```py
+words = ['Apples', 'Bananas', 'Oranges', 'Kiwis', 'Grapes']
+reverse_remove_vowels(words)
+```
+Output
+```output
+['Grps', 'Kws', 'rngs', 'Bnns', 'ppls']
+```
