@@ -183,7 +183,7 @@ Output
 
 # 8
 
-Write a function `reverse_remove_vowels(words)` that takes in one arguments `words`, which is an array of strings. **Return** a new array with the same words in reversed order **without vowels**. 
+Write a function `reverse_remove_vowels(words)` that takes in one argument `words`, which is an array of strings. **Return** a new array with the same words in reversed order **without vowels**. 
 
 
 #### Example
@@ -196,4 +196,26 @@ reverse_remove_vowels(words)
 Output
 ```output
 ['Grps', 'Kws', 'rngs', 'Bnns', 'ppls']
+```
+
+---
+
+# 9
+
+Write a function `collatz(num)` that takes in one argument `num`, which is a positive integer. **Return** a string of the sequence of steps it takes to get for the number to become 1 if it changes in the following way. 
+
+If the number is even, divide it by 2.
+
+If the number is odd, multiply it by 3 and add 1.
+
+
+#### Examples
+
+```output
+collatz(1) returns '1'
+collatz(2) returns '2 -> 1'
+collatz(3) returns '3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1'
+collatz(4) returns '4 -> 2 -> 1'
+collatz(5) returns '5 -> 16 -> 8 -> 4 -> 2 -> 1'
+collatz(6) returns '6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1'
 ```
