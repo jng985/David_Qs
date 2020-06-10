@@ -152,3 +152,29 @@ Test 3 : 53
 Test 4 : 95
 Test 5 : 88
 ```
+
+---
+
+# 7
+
+Write a function `cost_per(items, prices, quantities)` that takes in three arguments `items`, `prices`, `quantities`, and **prints** a string for each item, price, and quantity as shown below.
+
+
+#### Example
+Input
+
+```py
+items = ['apples', 'bananas', 'oranges', 'kiwis', 'grapes']
+prices = [5, 3, 6, 19, 8]
+quantities = [2, 6, 3, 5, 7]
+
+cost_per(items, prices, quantities)
+```
+Output
+```output
+2 apples cost $5, so each apple costs $2.50.
+6 bananas cost $3, so each banana costs $0.50.
+3 oranges cost $6, so each orange costs $2.00.
+5 kiwis cost $19, so each kiwi costs $3.80.
+7 grapes cost $8, so each grape costs $1.14.
+```
