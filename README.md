@@ -219,3 +219,18 @@ collatz(4) returns '4 -> 2 -> 1'
 collatz(5) returns '5 -> 16 -> 8 -> 4 -> 2 -> 1'
 collatz(6) returns '6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1'
 ```
+---
+
+# 10
+
+Write a function `counts(nums)` that takes in one argument `nums`, which is an array of integers. **Return** an object `counts` that maps numbers to their frequency of occurence in the input array `nums`.
+
+#### Examples
+Input
+```js
+counts([1,2,3,4,5,4,3,2,3,4,3,0,0,0])
+```
+Output
+```output
+{ '0': 3, '1': 1, '2': 2, '3': 4, '4': 3, '5': 1 }
+```
